@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>index</title>
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+
+  <div class="top"><a href="#"></a></div>
+  <div id="wrap">
+    <header>
+      <div class="utilMenu">
+        <a href="#none">이벤트</a>
+        <a href="#none">자주묻는 질문</a>
+        <a href="#none">언어</a>
+      </div>
+      <div class="mainMenu">
+        <img src="img/cl_name.png" class="logo" alt="logo">
+        <form class="menuForm">
+          <input type="search" name="search" placeholder="검색어를 입력하세요">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="submit" value="로그인하러 가기">
+        </form>
+      </div>
+      <div class="mainImg">
+        <ul class="imgGnb">
+          <li><a href="#none">예약</a></li>
+          <li><a href="#none">공항</a></li>
+          <li><a href="#none">기내</a></li>
+          <li><a href="#none">스카이패스</a></li>
+        </ul>
+      </div>
+    </header>
+    <section>
+      <nav>
+        <ul class="menuGnb">
+          <li><a href="#ticket">항공권 예매</a></li>
+          <li><a href="#reser">예약조회</a></li>
+          <li><a href="#checkin">체크인</a></li>
+          <li><a href="#service">대한 항공 서비스</a></li>
+          <li><a href="#guide">공항 이용 가이드</a></li>
+        </ul>
+      </nav>
+      <div class="bn">
+        <img src="img/bn1.png" class="bn1" alt="배너">
+        <img src="img/bn2.png" class="bn1" alt="배너">
+        <img src="img/bn3.png" class="bn1" alt="배너">
+        <img src="img/bn1.png" class="bn1" alt="배너">
+        <img src="img/bn2.png" class="bn1" alt="배너">
+        <img src="img/bn3.png" class="bn1" alt="배너">
+      </div>
+      <div id="ticket">
+        <div class="ticketMenu">
+          <h2>항공권 예매</h2>
+          <div>
+            <a href="#none">왕복</a>
+            <a href="#none">편도</a>
+            <a href="#none">다구간</a>
+          </div>
+        </div>
+        <div class="ticketBtn">
+          <div class="btn1">
+            <a href="#none">예매</a>
+            <a href="#none">마일리지<br>예매</a>
+          </div>
+          <div class="ticketCard">
+            <div class="btn2">
+              <a href="#none"><strong>sel</strong><i class="fa-solid fa-arrows-rotate"></i><strong>to</strong></a>
+              <a href="#none"><strong>서울</strong><strong>도착지</strong></a>
+            </div>
+            <div class="ticketForm">
+              <form>
+                <div class="cardform">
+                  <span>출발일</span>
+                  <input type="date">
+                  <input type="date">
+                </div>
+                <div class="cardform">
+                  <span>탑승객</span>
+                  <input type="number" min="1">
+                </div>
+                <div class="cardform">
+                  <span>좌석 등급</span>
+                  <select>
+                    <option value="s01">일등석</option>
+                    <option value="s02">프레스티지석</option>
+                    <option value="s03" selected>일반석</option>
+                  </select>
+                </div>
+              </form>
+            </div>
+            <button>항공편 검색</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="reser">
+        <div class="reserMenu">
+          <div class="reserBox">
+            <h2>예약조회</h2>
+            <form>
+              <div class="reserForm">
+                <div class="reserf">
+                  <span>예약번호 또는 항공권번호</span>
+                  <input type="text" placeholder="예&#41; A1B2C3 또는 18012345678980">
+                </div>
+                <div class="reserf">
+                  <span>출발일</span>
+                  <input type="date">
+                </div>
+                <div class="reserf">
+                  <span>성함</span>
+                  <input type="text" placeholder="성">
+                  <input type="text" placeholder="이름">
+                </div>
+              </div>
+            </form>
+            <a href="#none">조회</a>
+            <img src="img/planee.png" alt="">
+          </div>
+          <form>
+            <label>
+              <input type="checkbox">
+              <span>&#91;필수&#93;본인의 예약정보이거나 승객으로부터 조회를 위임 받은 예약정보입니다.</span>
+            </label>
+          </form>
+        </div>
+      </div>
+      
+      <div id="checkin">
+        <div class="checkinTitle">
+          <h2>체크인</h2>
+          <span>로그인하시면 체크인 목록을 확인할 수 있습니다.<a href="#none">로그인하기</a></span>
+        </div>
+        <div class="checkinBox">
+          <form>
+              <div class="checkf">
+                <span>예약번호 또는 항공권번호</span>
+                <input type="text" placeholder="예&#41; A1B2C3 또는 18012345678980">
+              </div>
+              <div class="checkf">
+                <span>출발일</span>
+                <input type="date">
+              </div>
+              <div class="checkf">
+                <span>성함</span>
+                <input type="text" placeholder="성">
+                <input type="text" placeholder="이름">
+              </div>
+          </form>
+        </div>
+        <div class="info">
+          <label>
+            <input type="checkbox">
+            <span>&#91;필수&#93;본인의 예약정보이거나 승객으로부터 조회를 위임 받은 예약정보입니다.</span>
+          </label>
+          <a href="#none">조회</a>
+        </div>
+      </div>
+      
+      <div id="service">
+        <h2>대한항공 서비스</h2>
+        <div class="serviceImg">
+          <span>출발 전부터 목적지에 도착할 때까지, 다양한 서비스로 완벽한 여행을 계획하세요!</span>
+        </div>
+        <div class="serviceIcon">
+          <div class="serviceCard">
+            <span class="material-symbols-outlined">airline_seat_recline_extra</span>
+            <span>좌석배정</span>
+          </div>
+          <div class="serviceCard">
+            <span class="material-symbols-outlined">trip</span>
+            <span>위탁수하물</span>
+          </div>
+          <div class="serviceCard">
+            <span class="material-symbols-outlined">flatware</span>
+            <span>기내식<br>사전 주문</span>
+          </div>
+          <div class="serviceCard">
+            <span class="material-symbols-outlined">record_voice_over</span>
+            <span>도움이<br>필요한 승객</span>
+          </div>
+          <div class="serviceCard">
+            <span class="material-symbols-outlined">travel</span>
+            <span>프리미엄</span>
+          </div>
+        </div>
+      </div>
+      <div id="guide">
+        <h2>공항이용가이드<em>&#95;인천국제공항</em></h2>
+        <span>제 2 여객터미널에 위치한 대한항공 공항 카운터 위치 및 이용 대상 승객을 확인할 수 있습니다.</span>
+        <div><img src="img/air2.png" alt=""></div>
+        <table class="guideTb">
+          <caption><strong>&#42;셀프백드랍 장비 교체 공사 안내</strong>
+            <br>[E 카운터] 24.04.15(월) ~ 24.05.22(수) / [D 카운터] 24.05.23(목) ~ 24.06.26(수)
+            <br>일정은 공사 작업 사정에 따라 변경될 수 있습니다.
+          </caption>
+          <thead>
+            <tr>
+              <th>카운터 위치</th>
+              <th>카운터 세부정보</th>
+            </tr>
+          </thead>
+          <tr>
+            <td>Sky Priority 퍼스트</td>
+            <td>퍼스트 일등석 체크인 라운지(A카운터)</td>
+          </tr>
+          <tr>
+            <td>Sky Priority 프레스티지</td>
+            <td>A 카운터</td>
+          </tr>
+          <tr>
+            <td>모닝캄 백드랍</td>
+            <td>B1 ~ B14번 카운터</td>
+          </tr>
+          <tr>
+            <td>일반석 백드랍</td>
+            <td>C/D 카운터 (대기 : C36번 카운터)</td>
+          </tr>
+          <tr>
+            <td>도움이 필요한 승객</td>
+            <td>C37번 카운터 (휠체어 대여 : C40번 카운터)</td>
+          </tr>
+          <tr>
+            <td>발권/스카이패스</td>
+            <td>B32 ~ B35번 (스카이패스회원 가입/조회 전용 컴퓨터 : B39 ~ 40번 전면)</td>
+          </tr>
+          <tr>
+            <td>셀프 백드랍</td>
+            <td>D 카운터</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+    <footer>
+      <div class="fmenu">
+        <a href="#none">회사소개</a>
+        <a href="#none">고객지원</a>
+        <a href="#none">약관 및 규정</a>
+        <a href="#none">기타안내</a>
+      </div>
+      <div class="footer">
+        <div class="footerleft">
+          <img src="img/cl_name.png" alt="logo">
+          <span>&#40;주&#41;대한항공대표 : 우기홍 외 1명</span>
+        </div>
+        <div class="footerright">
+          <span>주소 : 서울특별시 강서구 하늘길 260</span>
+          <span>전화 : 1588-2001 / 02-2656-2001</span>
+          <span>사업자등록번호 : 110-81-14794</span>
+          <span>통신판매업신고 : 강서 제 16-3010</span>
+          <span>개인정보보호책임자 : 임지영 대한항공 정보보안실장</span>
+          <span>대한항공 항공사 첫 소비자중심경영 CCM 인증 획득</span>
+          <span>대한항공-스카이트랙스-선정-5성-항공사</span>
+        </div>
+        <a href="#none"><img src="img/chat.jpg" class="chat" alt="chatbot" title="대한항공 챗봇 대한이"></a>
+      </div>
+      <span class="copy">&copy;1997-2024 KOREAN AIR</span>
+      <div class="ficon">
+        <a href="https://www.youtube.com/@koreanair"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://www.instagram.com/koreanair/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/KoreanAir/?locale=ko_KR"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://twitter.com/KoreanAir?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa-brands fa-square-x-twitter"></i></a>
+      </div>
+
+    </footer>
+
+
+  </div>
+  
+</body>
+</html>
